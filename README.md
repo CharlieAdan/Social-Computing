@@ -44,16 +44,3 @@ python main.py
 
 - 各实验的模型与可视化输出会保存在对应目录下的 `imageresult/`。
 - 请确保 `data/elliptic` 保持在仓库根目录（两个实验均用相对路径 `../data/elliptic` 访问）。
-
-注意事项
-
-- PyTorch Geometric (PyG) 需要根据你的 `torch`/CUDA 版本采用官网推荐的安装命令，请参照：https://pytorch-geometric.readthedocs.io
-- 如果你要将整理后的 `temp_project` 推送到 GitHub：
-  1. 在 GitHub 页面创建一个空仓库；
-  2. 在本地执行：
-
-```powershell
-git remote add origin https://github.com/你的用户名/你的仓库名.git
-git branch -M main
-git push -u origin main
-```
