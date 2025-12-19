@@ -1,0 +1,18 @@
+# 核心框架
+torch==1.12.1
+torch-geometric==2.1.0
+# torch-scatter, torch-sparse, torch-cluster, torch-spline-conv 需要与 PyTorch 和 CUDA 版本匹配安装
+# 建议根据您的环境，参考 PyG 官网指令安装：https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
+
+# 数据处理与科学计算
+pandas==1.5.3
+numpy==1.24.3
+scikit-learn==1.2.2
+networkx==2.8.8
+
+# 可视化
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# 其他
+tqdm==4.65.0
